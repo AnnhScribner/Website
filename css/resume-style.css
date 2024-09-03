@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(254, 224, 229);
+}
+
+/* Box -> Anna Scribner */
+.box-anna-scribner{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-right: 880px;
+    margin-left: 70px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.anna-scribner{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    transition: 0.15s;
+}
+
+.box-anna-scribner :hover {
+    color: rgb(255, 157, 208);
+    cursor:grab;
+}
+
+/* Box -> Resume|Prijects|Contact */
+.resume-projects-contact {
+    display: inline-block;
+    margin-top: 40px;
+    vertical-align: top;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+.resume-projects-contact :hover{
+    color: rgb(255, 157, 208);
+    cursor:grab;
+}
+
+
+.resume {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+.projects {
+    display: inline-block;
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+.contact {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+
